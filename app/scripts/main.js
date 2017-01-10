@@ -94,12 +94,8 @@ function nextPage() {
 			var nextPageToken = data.nextPageToken,
 				prevPageToken = data.prevPageToken;
 
-
-
 			$.each(data.items, function(i, item){
-
 				var output = getOutput(item);
-
 				//display results
 				$('.youtube-result').append(output)
 			});
@@ -136,12 +132,8 @@ function prevPage() {
 			var nextPageToken = data.nextPageToken,
 				prevPageToken = data.prevPageToken;
 
-
-
 			$.each(data.items, function(i, item){
-
-				var output = getOutput(item);
-
+				var output = getOutput(item);	
 				//display results
 				$('.youtube-result').append(output)
 			});
