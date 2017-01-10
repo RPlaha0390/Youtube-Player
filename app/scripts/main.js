@@ -31,6 +31,10 @@ $(function() {
 	$('#youtube-form').submit(function(e){
 		e.preventDefault();
 	});
+
+	//call fancybox
+	$('.fancybox').fancybox();
+
 });
 
 function search() {
